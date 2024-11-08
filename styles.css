@@ -1,0 +1,38 @@
+*{
+    margin: 0;
+}
+
+body{
+    display: flex;
+    height: 100vh; /*Need this so that align-items works, it requires a height.*/
+    justify-content: center;
+    align-items: center;
+    background-color: salmon;
+}
+
+.outer-container{
+    display: flex;
+    flex-direction: column;  
+    height: 60vh;
+    width: 40vw;
+    background-color: red;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid lightcoral;
+}
+
+.title-container{
+    margin-bottom: 5px;
+}
+
+.score-container{
+    margin-bottom: 15px;
+}
+
+.question-container{
+    margin-bottom: 35px;
+}
+
+.input-container{
+    margin-bottom: 5px;
+}
